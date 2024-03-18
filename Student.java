@@ -1,4 +1,4 @@
-class Student {
+class Student extends Course{
     String name="Ranjita";
     String program="BCA";
     String sem="4th";
@@ -18,6 +18,7 @@ class Student {
     public static void main(String[] args){
         Student s = new Student();
         s.display();
-       
+        s. displayCourse();
+        s.courseMarks();
     }
 }
